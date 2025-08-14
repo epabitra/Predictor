@@ -1,0 +1,20 @@
+Predictor Application Requirements
+----------------------------------------------------------------
+Functionality's Need to implement
+----------------------------------
+- Create Predictor
+- Create Turnaments
+- 1 predictor can give prediction on multiple turnament matches...
+- Need to add matches to turnament
+- Need to categories the matches according to turnament.
+- Whenever a match time came, before 1hour of match time, it should ask for the match prediction, for each predictor.
+- and after match finished i need only to give who is the winner, once i provide the winner, it will check for each of the predictor.
+	who given the correct prediction it will show as true and for wrong prediction false, and for not given any prediction for a match 
+	then it will show like not predicted.
+- Need to have parent predictor also, mean who promoted the current preditor, may be he is just copying the parent predictor predictions. this is just a column
+	need to keep in predictor table.
+- need to show the prediction results for each of the predictor in the Prediction Stats Dashboard.
+- and we can show the proper prediction complete details for a specific predictor also by clicking on the view details button associated with the preditor row.
+- all matches i can see and their prediction rate also i need to see clearly in a good ui.
+- if i want a specific match prediction then also i can see that by clicking on the view details.
+- 
